@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>Riga</title>
+    <link rel="shortcut icon" href="https://cdn.freebiesupply.com/logos/large/2x/riga-1-logo-black-and-white.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Laptop gift</h1>
-    <progress value="70" max="100">70%</progress>
-    <details>
-        <summary>Click to reveal a hidden treasure!</summary>
-        <p>Congratulations! You've discovered a Laptop</p>
-        <figure>
-            <img src="img/3.png" alt="Laptop">
-          </figure>
-      </details>
-      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="50" cy="50" r="30" fill="blue">
-          <animate attributeName="r" from="10" to="30" dur="1s" begin="0s" repeatCount="indefinite" />
-        </circle>
-      </svg>
-      
+
+  <header data-include="partials/index.header.partial.html"></header>
+
+  <main>
+    <section data-include="partials/index.new-arrivals.partial.html"></section>
+    <section data-include="partials/index.contacts.partial.html"></section>
+  
+  
+  </main>   
+
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 </html>
