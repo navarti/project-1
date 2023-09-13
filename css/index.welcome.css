@@ -1,0 +1,9 @@
+.welcome {
+    background-image: url("../img/welcome-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    justify-content: space-around;
+    padding-top: 50px;
+}

@@ -1,0 +1,8 @@
+.nav-logo-holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link .logo {
+    width: 40px;
+}
