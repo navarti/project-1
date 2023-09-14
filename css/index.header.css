@@ -1,8 +1,14 @@
 .nav-logo-holder {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
-.nav-link .logo {
+.navbar-brand-logo{
+    width: 50px;
+}
+
+
+.nav-link.logo {
     width: 40px;
 }
