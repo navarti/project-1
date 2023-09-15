@@ -11,14 +11,16 @@ img {
     width: 100%;
 }
 
+body{
+    font-family: 'Georama', sans-serif;
+}
+
 :root {
     --brand-color: #bc6e44;
     --main-text-color: #2a2824;
     --sub-text-color: #837d71;
     --section-background-color: #faf8f2;
-    font-family: 'Georama', sans-serif;
 }
-
 
 .header-theme {
     margin: 0 auto;
@@ -54,5 +56,5 @@ img {
     height: 2px;
     width: 15%;
     background-color: rgba(84, 78, 76, 0.18);
-    font-weight: 400;T
+    font-weight: 400;
 }

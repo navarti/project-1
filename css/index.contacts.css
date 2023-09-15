@@ -1,0 +1,15 @@
+.contacts{
+    background-image: url("../img/contacts-background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.contacts__container{
+    background-color: white;
+    width: 50%;
+    margin-left: 7%;
+}
