@@ -18,3 +18,41 @@ img {
     --section-background-color: #faf8f2;
     font-family: 'Georama', sans-serif;
 }
+
+
+.header-theme {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-theme_title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+.header-theme_subtitle {
+    font-size: 38px;
+    font-size: 500;
+    line-height: 42px;
+    margin-top: 10px;
+}
+
+.header-theme_describtion {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.divider{
+    height: 2px;
+    width: 15%;
+    background-color: rgba(84, 78, 76, 0.18);
+    font-weight: 400;T
+}

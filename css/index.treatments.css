@@ -1,0 +1,5 @@
+.treatments__procedure-describtion{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
