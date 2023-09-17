@@ -7,3 +7,7 @@
     justify-content: space-around;
     padding-top: 50px;
 }
+
+.welcome__content.content{
+    padding-left: 10%;
+}
