@@ -10,7 +10,18 @@
 
 .contacts__container{
     background-color: white;
-    width: 50%;
+    width: 35%;
     margin-left: 7%;
     text-align: center;
+}
+
+.form_holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_holder > div{
+    padding: 30px;
 }

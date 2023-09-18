@@ -11,3 +11,13 @@
 .welcome__content.content{
     padding-left: 5%;
 }
+
+
+.content__title{
+    font-size: 82px;
+    font-weight: bold;
+}
+
+.content__sub-title{
+    font-size: 13px;
+}

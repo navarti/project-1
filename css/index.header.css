@@ -1,15 +1,29 @@
 .nav-logo-holder {
     display: flex;
-    flex-direction: row;
-    /* justify-content: flex-end;
-    align-items: flex-start; */
+    flex-direction: column;
 }
+
+.nav-logo-holder > div {
+    margin: 50px;
+}
+
+.navbar-nav{
+    justify-content: space-around;
+}
+
 
 .navbar-brand-logo{
-    width: 50px;
+    width: 80px;
 }
-
 
 .nav-link.logo {
     width: 40px;
+}
+
+
+@media (min-width: 990px){
+    .nav-logo-holder {
+        display: flex;
+        flex-direction: row;
+    }
 }
