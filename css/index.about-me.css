@@ -1,4 +1,13 @@
 .container{
-    display: grid;
+    display: flex;
     grid-template-rows: 1fr 1fr;
+}
+/* 
+.about-me__information{
+    
+} */
+
+
+.about-me__img{
+    width: 100%;
 }

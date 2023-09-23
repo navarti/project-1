@@ -1,6 +1,8 @@
 .nav-logo-holder {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-logo-holder > div {
@@ -9,6 +11,7 @@
 
 .navbar-nav{
     justify-content: space-around;
+    text-align: center;
 }
 
 
