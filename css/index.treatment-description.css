@@ -1,0 +1,11 @@
+.treatment-description{
+    display: none;
+    background: #CFF;
+    height:100vh;
+    width: 100vw;
+}
+
+
+.treatment-description-active{
+    display: block;
+}

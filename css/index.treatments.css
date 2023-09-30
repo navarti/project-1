@@ -1,3 +1,8 @@
+.treatments .header-theme{
+    padding-top: 20px;
+}
+
+
 .treatments__procedure-describtion{
     display:flex;
     flex-direction: column;
@@ -6,35 +11,75 @@
     text-align: center;
 }
 
+
 .procedure-describtion__item{
     padding: 5%;
 }
 
-.card.mb-3{
+.treatments__carousel {
+    min-height: 350px;
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    align-items: center;
+}
+
+.treatments__carousel-slide {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.treatments__carousel-indicators {
+    padding: 15px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.treatments__carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.treatments__carousel-indicator--active {
+    background-color: #000;
+}
+
+
+.treatments__carousel{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.carousel__element{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.carousel__element__img{
+    max-height: 600px;
+    width: auto;
     margin: auto;
 }
 
-.row.g-0{
-    padding: 10%;
+.carousel__element__title{
+    margin: auto;
+}
+
+.carousel__element__button{
+    margin: auto;
 }
 
 
 @media (min-width: 770px) {
-    .card.mb-3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     .treatments__procedure-describtion{
         flex-direction: row;
-    }
-}
-
-@media (min-width: 990px) {
-    .card.mb-3{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
