@@ -114,10 +114,21 @@ function updateButtons(){
 }
 
 
-
 function renderDescription(index){
-    let description = document.querySelector('.treatment-description');
-    description.classList.toggle('treatment-description-active');
+    const modalWindow = document.getElementById('myModal');
+    const mwHTML =
+        `<div class="modal" id="myModal">
+            <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <h2>${treatments[index].title}</h2>
+                <p>${treatments[index].description}</p>
+            </div>
+        </div>`;
+    document.querySelector('.closeBtn').addEventListener('click', function() {
+        document.getElementById('myModal').style.display = 'none';
+    });
+    modalWindow.innerHTML = mwHTML;
+    modalWindow.style.display = 'block';
 }
 
 
