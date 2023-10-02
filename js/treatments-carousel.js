@@ -108,7 +108,7 @@ function updateButtons(){
         const element = div.children[i];
         const button = element.querySelector('.carousel__element__button');
         button.addEventListener('click', () => {
-            renderDescription(currentSlideIdx + i)
+            renderDescription((currentSlideIdx + i)%treatments.length);
         })
     }
 }
@@ -117,19 +117,20 @@ function updateButtons(){
 function renderDescription(index){
     const modalWindow = document.getElementById('myModal');
     const mwHTML =
-        `<div class="modal" id="myModal">
-            <div class="modal-content">
-                <span class="closeBtn">&times;</span>
-                <h2>${treatments[index].title}</h2>
-                <p>${treatments[index].description}</p>
-            </div>
+        `<div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2>${treatments[index].title}</h2>
+            <p>${treatments[index].description}</p>
         </div>`;
+    modalWindow.innerHTML = mwHTML;
+    modalWindow.style.display = 'block';
     document.querySelector('.closeBtn').addEventListener('click', function() {
         document.getElementById('myModal').style.display = 'none';
     });
-    modalWindow.innerHTML = mwHTML;
-    modalWindow.style.display = 'block';
 }
+
+
+
 
 
 
