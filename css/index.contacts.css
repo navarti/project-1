@@ -4,16 +4,15 @@
     background-position: center;
     background-attachment: fixed;
     min-height: 500px;
-    justify-content: space-around;
     padding-top: 50px;
+    display: flex;
+    align-items: start;
 }
 
-.contacts__container{
-    background-color: white;
-    width: 35%;
+.contacts__header-theme{
     margin-left: 7%;
-    text-align: center;
 }
+
 
 .header-theme__logo-holder {
     display: flex;
