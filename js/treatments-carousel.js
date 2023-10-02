@@ -94,10 +94,10 @@ function renderIndicators() {
 
 renderSlide();
 
-const nextBtn = document.querySelector('.treatments__carousel-btn-next');
+const nextBtn = document.querySelector('.arrow-slider.right');
 nextBtn.addEventListener('click', nextSlide);
 
-const prevBtn = document.querySelector('.treatments__carousel-btn-prev');
+const prevBtn = document.querySelector('.arrow-slider.left');
 prevBtn.addEventListener('click', prevSlide);
 
 

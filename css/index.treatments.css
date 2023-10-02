@@ -3,7 +3,7 @@
 }
 
 
-.treatments__procedure-describtion{
+.treatments__procedure-description{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
@@ -12,14 +12,14 @@
 }
 
 
-.procedure-describtion__item{
+.procedure-description__item{
     padding: 5%;
 }
 
 .treatments__carousel {
-    min-height: 350px;
+    /* min-height: 350px; */
     display: grid;
-    grid-template-columns: 40px 1fr 40px;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
@@ -49,6 +49,21 @@
     background-color: #000;
 }
 
+.arrow-slider{
+    width: 40px;
+    height: 40px;
+    background-color: var(--arrows-color); 
+    color: #f5f5f5;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-slider:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken on hover */
+}
+
+
 
 .treatments__carousel{
     display: flex;
@@ -65,21 +80,38 @@
 
 .carousel__element__img{
     max-height: 600px;
+    height: 70vh;
     width: auto;
     margin: auto;
 }
 
 .carousel__element__title{
     margin: auto;
+    font-size: 20px;
 }
 
-.carousel__element__button{
-    margin: auto;
+.carousel__element__button {
+    background-color: #007BFF; /* Blue color */
+    border: none;
+    color: white; /* Text color */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+/* Hover effect */
+.carousel__element__button:hover {
+    background-color: #0056b3; /* A darker blue when hovering */
+}
 
 @media (min-width: 770px) {
-    .treatments__procedure-describtion{
+    .treatments__procedure-description{
         flex-direction: row;
     }
 }
